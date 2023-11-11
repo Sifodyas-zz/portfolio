@@ -7,5 +7,6 @@ import vercelStatic from '@astrojs/vercel/static';
 export default defineConfig({
   integrations: [mdx(), sitemap(), tailwind()],
   output: 'static',
+  site: "https://vercel.com/silas-projects-fb48baf7/portfolio/53QhdKCdyAegq89pnff4mnReVQXU",
   adapter: vercelStatic(),
 });
